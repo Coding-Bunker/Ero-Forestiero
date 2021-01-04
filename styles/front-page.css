@@ -130,8 +130,42 @@
     border-radius: 8px;
 }
 
+/*Volunteer code added by Alex*/
+.volunteer{
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.volunteer > h2 {
+    margin-left: 7.5%;
+    text-align: left;
+}
 
+.volunteer-div {
+    display: inline-flex;
+    height: 50vh;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 75px;
+}
+
+.volunteer-div > span {
+    width: 50%;
+}
+
+.volunteer-p {
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.volunteer-p > p {
+    margin-right: 15%;
+}
+
+.volunteer-img > img{
+    margin-left: 15%;
+    width: 75%;
+}
 
 .clearfix:after {
     visibility: hidden;
