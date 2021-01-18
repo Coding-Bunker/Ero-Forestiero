@@ -68,7 +68,7 @@
     width: 80%;
 }
 
-/* Mobile responsive sezione Intro */
+/* Mobile responsive sezione Intro - Author: Andrea */
 @media screen and (max-width: 767px){
     .intro__left-column {
         width: 100%;
