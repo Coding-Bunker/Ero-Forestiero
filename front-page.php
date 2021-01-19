@@ -1,7 +1,7 @@
 <?php get_header(); ?>
         <!-- Inizio sezione contatti Author: Alex -->
         <section class="contact clearfix">
-            <h2>Contatti</h2>
+            <h2><strong>Contatti</strong></h2>
 
             <div class="contact-div">
                 <span class="test">    

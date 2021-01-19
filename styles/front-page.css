@@ -8,18 +8,12 @@
     font-family: 'NeuzeitGroteskW01-Regular', 'NeuzeitGroteskCondW01-Black';
 }
 
-.button {
-    padding: 16px 46px;
-    background-color: #646464;
-    font-size: 26px;
-    color: white;
-    text-decoration: none;
-    font-family: 'NeuzeitGroteskCondW01-Black';
-    border-radius: 8px;
-}
-
 /*Contact section added by Alex*/
 .contact > h2 {
+    font-size: 46px;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 20px;
     margin-left: 7.5%;
 }
 
@@ -55,8 +49,15 @@
 
 .contact-a > a {
     margin-left: 15%;
-    position: relative;/*
-    top: 400px;*/
+    position: relative;
+    
+    padding: 16px 46px;
+    background-color: #646464;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    border-radius: 8px;
 }
 
 .clearfix:after {
