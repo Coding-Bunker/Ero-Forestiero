@@ -63,6 +63,10 @@
 /*Contact section responsive Author: Alex*/
 
 @media screen and (max-width: 414px) {
+    .contact {
+        text-align: center;
+    }
+
     .contact-div {
         flex-direction: column-reverse;
     }
@@ -101,6 +105,7 @@
     .contact-a > a {
         margin-left: 0%;
         margin-top: 10%;
+        margin-bottom: 100px;
     }
 }
 
