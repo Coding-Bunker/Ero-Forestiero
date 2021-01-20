@@ -61,4 +61,36 @@
 
 /*Volunteer section responsive Author: Alex*/
 
+@media screen and (max-width: 414px) {
+    .volunteer > h2 {
+        text-align: center;
+        margin-left: 0;
+        font-size: 60px;
+    }
+
+    .volunteer-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .volunteer-div > span {
+        width: 90%;
+    }
+
+    .volunteer-p {
+        text-align: center;
+    }
+
+    .volunteer-p > p {
+        margin-right: 0;
+    }
+
+    .volunteer-img > img {
+        margin-bottom: 60px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
 /*End volunteer section*/
