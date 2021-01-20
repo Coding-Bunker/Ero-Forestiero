@@ -21,6 +21,7 @@
     margin-bottom: 20px;
 
     margin-left: 7.5%;
+    margin-bottom: 50px;
     text-align: left;
 }
 
@@ -61,11 +62,13 @@
 
 /*Volunteer section responsive Author: Alex*/
 
-@media screen and (max-width: 414px) {
+/* Margin h2 aumentare, ridurre testo h2 */
+
+@media screen and (max-width: 800px) {
     .volunteer > h2 {
         text-align: center;
         margin-left: 0;
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .volunteer-div {
