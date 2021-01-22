@@ -144,6 +144,7 @@
         display: none;
        border-radius: 8px;
 }
+}
 
 @media screen and (max-width: 767px){
     .about__title {
@@ -189,4 +190,4 @@
     content: " ";
     clear: both;
     height: 0;
-}}
+}
