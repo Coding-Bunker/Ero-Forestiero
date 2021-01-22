@@ -8,7 +8,8 @@
     font-family: 'NeuzeitGroteskW01-Regular', 'NeuzeitGroteskCondW01-Black';
 }
 
-/* Stile sezione intro */
+<<<<<<< .merge_file_a01652
+/* Stile sezione intro - Author: Andrea */
 .intro {
     width: 100%;
     height: 80vh;
@@ -49,27 +50,9 @@
 .intro__button-primary {
     padding: 16px 46px;
     background-color: #008964;
-    font-size: 26px;
-    color: white;
-    text-decoration: none;
-    font-family: 'NeuzeitGroteskCondW01-Black';
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    margin-right: 3%;
-}
-.intro__link {
-    margin-top: 2%;
-    font-size: 20px;
-    color: #888888;
-    font-family: 'NeuzeitGroteskCondW01-Black';
-}
+=======
 
-.intro__image {
-    width: 80%;
-}
-
-
-/* Stile sezione Chi Siamo */
+/* Stile sezione Chi Siamo - Author: Andrea */
 .who-we-are {
     width: 100%;
     height: 100vh;
@@ -120,69 +103,84 @@
     margin-left: 15%;
 }
 
-.about__button-primary {
+.about__button-primary > a {
     padding: 16px 46px;
     background-color: #646464;
+>>>>>>> .merge_file_a02436
     font-size: 26px;
     color: white;
     text-decoration: none;
     font-family: 'NeuzeitGroteskCondW01-Black';
-    border-radius: 8px;
-}
-
-
-/* Stile sezione Corsi */
-.courses {
-    width: 100%;
-    height: 60vh;
-    text-align: center;
-}
-.courses__title {
-    font-size: 44px;
-    font-family: 'NeuzeitGroteskCondW01-Black';
-    font-weight: 400;
-    text-align: left;
-    margin-left: 178px;
-}
-.courses__card-container {
-    margin: 50px 0 130px 0;
-    display: flex;
-    justify-content: space-around;
-}
-.courses__card {
-    width: 20%;
-    height: 30vh;
+<<<<<<< .merge_file_a01652
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    display: inline-block;
-    text-align: center;
-}
-.courses__card-image {
-    margin-top: 15%;
-    margin-bottom: 20px;
-    width: 20%;
-}
-.courses__card-title {
-    font-size: 30px;
-    font-family: 'NeuzeitGroteskCondW01-Black';
-    font-weight: 400;
-}
-.courses__card-caption {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-}
-
-
-.courses__button-primary {
-    padding: 16px 46px;
-    background-color: #646464;
-    font-size: 26px;
-    color: white;
-    text-decoration: none;
-    font-family: 'NeuzeitGroteskCondW01-Black';
     border-radius: 8px;
+    margin-right: 3%;
+}
+.intro__link {
+    margin-top: 2%;
+    font-size: 20px;
+    color: #888888;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+}
+
+.intro__image {
+    width: 80%;
+}
+
+/* Mobile responsive sezione Intro - Author: Andrea */
+@media screen and (max-width: 767px){
+    .intro__left-column {
+        width: 100%;
+    }
+    .intro__title {
+        margin: 0;
+        font-size: 39px;
+        max-width: 90%;
+        margin-left: 23px;
+    }
+    .intro-links {
+        margin: 0;
+        margin-left: 23px;
+        margin-top: 50px;
+    }
+    .intro__right-column {
+        display: none;
+=======
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 767px){
+    .about__title {
+        font-size: 35px;
+    }
+    .about__columns-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top: 190px;
+    }
+    .about__column, .about__column-image {
+        width: 100%;
+        text-align: center;
+    }
+    .about__column-image > img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about__column {
+        height: auto;
+        margin-top: 20px;
+    }
+    .about__paragraph {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: normal;
+    }
+    .about__button-primary {
+        margin-top: 140px;
+>>>>>>> .merge_file_a02436
+    }
 }
 
 
