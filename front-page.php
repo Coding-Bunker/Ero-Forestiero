@@ -23,8 +23,8 @@
 
             <div class="about__columns-div">
                 <span class="about__column">
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p> <br><br>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. </p> <br><br>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. </p>
                 </span>
                 
                 <span class="about__column-image">
