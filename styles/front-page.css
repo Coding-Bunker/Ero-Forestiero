@@ -50,6 +50,38 @@
     padding: 16px 46px;
     background-color: #008964;
 }
+.intro__link {
+    margin-top: 2%;
+    font-size: 20px;
+    color: #888888;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+}
+
+.intro__image {
+    width: 80%;
+}
+
+/* Mobile responsive sezione Intro - Author: Andrea */
+@media screen and (max-width: 767px){
+    .intro__left-column {
+        width: 100%;
+    }
+    .intro__title {
+        margin: 0;
+        font-size: 39px;
+        max-width: 90%;
+        margin-left: 23px;
+    }
+    .intro-links {
+        margin: 0;
+        margin-left: 23px;
+        margin-top: 50px;
+    }
+    .intro__right-column {
+        display: none;
+       border-radius: 8px;
+    }
+}
 
 /* Stile sezione Chi Siamo - Author: Andrea */
 .who-we-are {
@@ -113,39 +145,8 @@
     border-radius: 8px;
     margin-right: 3%;
 }
-.intro__link {
-    margin-top: 2%;
-    font-size: 20px;
-    color: #888888;
-    font-family: 'NeuzeitGroteskCondW01-Black';
-}
 
-.intro__image {
-    width: 80%;
-}
-
-/* Mobile responsive sezione Intro - Author: Andrea */
-@media screen and (max-width: 767px){
-    .intro__left-column {
-        width: 100%;
-    }
-    .intro__title {
-        margin: 0;
-        font-size: 39px;
-        max-width: 90%;
-        margin-left: 23px;
-    }
-    .intro-links {
-        margin: 0;
-        margin-left: 23px;
-        margin-top: 50px;
-    }
-    .intro__right-column {
-        display: none;
-       border-radius: 8px;
-}
-}
-
+/* Mobile responsive sezione Chi Siamo - Author: Andrea */
 @media screen and (max-width: 767px){
     .about__title {
         font-size: 35px;
@@ -180,17 +181,6 @@
 }
 
 
-
-
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
 
 /* Stile sezione Corsi - Author: Andrea */
 .courses {
@@ -246,6 +236,7 @@
     border-radius: 8px;
 }
 
+/* Mobile responsive sezione Corsi - Author: Andrea */
 @media screen and (max-width: 767px){
     .courses {
         text-align: center;
@@ -269,4 +260,17 @@
     .courses__button-primary {
         margin-bottom: 50px;
     }
+}
+
+
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
