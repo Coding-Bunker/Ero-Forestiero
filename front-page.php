@@ -24,5 +24,7 @@
                 </div>
             </div>
 
-            <a href="#" class="courses__button-primary">Scopri i nostri corsi</a>
+            <div class="courses__button-primary">
+            <a href="#">Scopri i nostri corsi</a>
+            </div>
         </section>

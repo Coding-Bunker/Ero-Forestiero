@@ -12,7 +12,7 @@
 /* Stile sezione Corsi - Author: Andrea */
 .courses {
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     text-align: center;
 }
 .courses__title {
@@ -23,7 +23,7 @@
     margin-left: 178px;
 }
 .courses__card-container {
-    margin: 50px 0 130px 0;
+    margin: 100px 0 150px 0;
     display: flex;
     justify-content: space-around;
 }
@@ -53,7 +53,7 @@
 }
 
 
-.courses__button-primary {
+.courses__button-primary > a {
     padding: 16px 46px;
     background-color: #646464;
     font-size: 26px;
@@ -65,19 +65,17 @@
 
 @media screen and (max-width: 767px){
     .courses {
-        border: 1px solid red;
         text-align: center;
         height: auto;
     }
     .courses__title {
-        border: 1px solid red;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
     .courses__card-container {
         flex-direction: column;
-        
+        margin-bottom: 80px;
     }
     .courses__card {
         width: 75%;
@@ -85,9 +83,8 @@
         margin-left: auto;
         margin-right: auto;
     }
-
     .courses__button-primary {
-        display: none;
+        margin-bottom: 50px;
     }
 }
 
