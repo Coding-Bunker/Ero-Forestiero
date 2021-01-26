@@ -37,7 +37,7 @@
 }
 
 .contact-p {
-    margin-top: 25%;
+    margin-top: 100px;
 
     line-height: 28px;
     font-size: 20px;
@@ -62,7 +62,14 @@
 
 /*Contact section responsive Author: Alex*/
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1000px) {
+    .contact-p {
+        margin-top: 20px; 
+        line-height: 24px;;
+    }
+}
+
+@media screen and (max-width: 800px) {
     .contact {
         text-align: center;
     }
