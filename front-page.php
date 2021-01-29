@@ -62,7 +62,7 @@
             </div>
 
             <div class="courses__button-primary">
-            <a href="#">Scopri i nostri corsi</a>
+                <a href="#">Scopri i nostri corsi</a>
             </div>
         </section>
 
