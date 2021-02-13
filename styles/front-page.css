@@ -67,7 +67,8 @@ body {
 }
 
 .intro__image {
-    width: 80%;
+    width: 70%;
+    margin-top: 170px;
 }
 
 /* Mobile responsive sezione Intro - Author: Andrea */
@@ -102,7 +103,6 @@ body {
     font-size: 46px;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 20px;
 }
 
 .about__columns-div {
@@ -117,7 +117,7 @@ body {
     flex-direction: column;
     width: 50%;
     align-self: flex-start;
-    padding: 15vh 0;
+    padding: 7vh 0 15vh 0;
 }
 .about__column-image {
     width: 50%;
@@ -201,7 +201,7 @@ body {
     font-family: 'NeuzeitGroteskCondW01-Black';
     font-weight: 400;
     text-align: left;
-    margin-left: 178px;
+    margin-left: 7.5%;
 }
 .courses__card-container {
     margin: 100px 0 150px 0;
@@ -249,6 +249,9 @@ body {
 
 /* Mobile responsive sezione Corsi - Author: Andrea */
 @media screen and (max-width: 1366px) {
+    .courses__card-title {
+        font-size: 22px;
+    }
     .courses__card-image {
         margin-top: 15%;
         margin-bottom: 20px;
@@ -282,7 +285,7 @@ body {
         width: 15%;
     }
     .courses__button-primary {
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
 }
 

@@ -6,7 +6,7 @@
 
             <div class="intro-links">
                 <a href="#" class="intro__button-primary"><strong>Inizia ad imparare</strong></a>
-                <a href="#" class="intro__link">Scropri l'offerta formativa</a>
+                <a href="#" class="intro__link">Scopri l'offerta formativa</a>
             </div>
             </span>
 
@@ -66,13 +66,14 @@
             </div>
         </section>
 
+
         <!-- Inizio sezione "Diventa un volontario" Author: Alex-->
         <section class="clearfix volunteer">
             <h2><strong>Diventa un volontario</strong></h2>
 
             <div class="volunteer-div" style="">
                 <span class="volunteer-img">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_quiz_nlyh 1.png">
+                    <img src="<//?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_quiz_nlyh 1.png">
                 </span>    
             
                 <span class="volunteer-p">
@@ -95,6 +96,7 @@
             <a href="#" class="about__button-primary">Diventa un volontario</a>
         </section>
 
+
         <!-- Inizio sezione contatti Author: Alex -->
         <section class="contact clearfix">
             <h2><strong>Contatti</strong></h2>
@@ -116,7 +118,7 @@
                 </span>
 
                 <span class="contact-img">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_online_information_4ui6.png">
+                    <img src="<//?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_online_information_4ui6.png">
                 </span>
             </div>
         </section>
