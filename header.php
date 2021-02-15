@@ -25,6 +25,7 @@
         <!-- Link a tutti i fogli di stile -->
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/front-page.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/404.css" type="text/css" media="all" />
         <!-- Definisce l'head del sito -->
         <?php wp_head(); ?>
     </head>

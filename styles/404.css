@@ -1,0 +1,44 @@
+
+/* 404 error page style - Author: Andrea */
+.error-page__image-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.error-page__image-container > img {
+    width: 24%;
+}
+
+.error-page__text-container {
+    margin-top: 100px;
+    max-width: 25%;
+    text-align: center;
+}
+.error-page__text-container > h3 {
+    font-size: 28px;
+    font-family: 'NeuzeitGroteskW01-Regular';
+    font-weight: 300;
+}
+
+/* Tablet responsive pagina 404 - Author: Andrea */
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .error-page__image-container > img {
+        width: 38%;
+    }
+    .error-page__text-container {
+        max-width: 40%;
+    }
+}
+
+/* Mobile responsive pagina 404 - Author: Andrea */
+@media screen and (max-width: 767px) {
+    .error-page__image-container > img {
+        width: 50%;
+    }
+    .error-page__text-container {
+        max-width: 80%;
+    }
+}
