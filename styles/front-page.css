@@ -593,3 +593,240 @@ body {
 }
 
 /*End contact section*/
+
+.testimonianze{
+    margin-top: 20px; 
+    margin: 80px;
+    text-align: center;
+}
+.testimonianze .title{
+    text-align: left;
+    margin-bottom: 169px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    font-size: 44px;
+}
+
+.testimonianze-section{
+    display: flex;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.testimonianze-section .prospect{
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    width: 310px;
+    height: 554px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 0 92px 0 0;
+    text-align: center;
+}
+
+.testimonianze-section .avatar img{
+    
+     width: 170px;
+    height: 170px;
+    border-radius: 999px;
+    margin-top:42px;
+    left: 70px;
+    right: 70px;
+    cursor: pointer;
+}
+.testimonianze-section .avatar-flag img{
+    cursor: pointer;
+    margin-left:142px;
+    margin-right: 142px;
+    margin-top: 17.67px;
+    width: 26px;
+    height:17.32px;
+}
+.testimonianze-section .avatar-flag p{
+    margin-top: 9.01px;
+    margin-bottom: 10px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #303030;
+}
+.testimonianze-section .story h4{
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+}
+.testimonianze-section .story p{
+    margin-left: 26.5px;
+    margin-right: 26.5px;
+    margin-bottom: 113px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    /* or 167% */
+    
+    color: rgba(48, 48, 48, 0.75);
+}
+
+.testimonianze .btn{
+    margin-top: 140px;
+    width: 200px;
+    height: 77px;
+    background-color: #646464;
+    color: white;
+    font-size: 28px;
+    border-radius:8px;
+    border: 2px solid black;
+    margin-bottom: 265px;
+    cursor: pointer;
+    
+}
+@media (max-width: 600px) {
+    .testimonianze .text h4{
+        text-align: center;
+        font-size:46px;
+    }
+
+}
+
+
+/* -- covid 19 section -- */
+.covid-19 {
+    margin-bottom: 290px;
+}
+.covid-19 .container{
+    margin: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 20px;
+}
+
+.covid-19 .title{
+    margin-bottom: 92px;
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    font-size: 44px; 
+}
+.covid-19 .row{
+    display: flex;
+}
+
+.covid-19 .row img{
+    width: 647px;
+    height: 554px;
+    padding-left: 30px;
+    margin-top: 190px;
+}
+.covid-19 .group-text{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 80px;
+    text-align: justify;
+    font-size: 24px;
+    padding-left: 252px;
+}
+.group-text .paragraph_1{
+    padding-bottom: 126px;
+}
+.btn-section{
+    text-align: center;
+    margin-top: 126px;
+}
+.covid-19 .btn{
+    width: 376px;
+    height: 77px;
+    background-color: #646464;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+
+/* -- sostienici section -- */
+
+.sostienici .container{
+    margin: 80px;
+}
+.sostienici{
+    margin-bottom: 250px;
+}
+.sostienici .group{
+    margin-bottom: 20px;
+}
+.sostienici .title{
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    font-size: 44px;
+}
+.sostienici .row{
+    margin-top: 36px;
+}
+.sostienici .row .paragraph{
+    float: left;
+    width: 800px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 100px;
+    text-align: justify;
+    font-size: 24px;
+    padding-right:100px;
+}
+.sostienici .btn{
+    width: 194px;
+    height: 77px;
+    background-color: orange;
+    color: white;
+    font-size: 28px;
+    font-style: normal;
+    border-radius: 8px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.sostienici .row img{
+    width: 512px;
+    height: 436px;
+}
+
+.sostienici .row .paragraph p{
+    padding-right: 100px;
+}
+
+@media (max-width: 600px) {
+    .sostienici .text h4{
+        text-align: center;
+        font-size: 46px;
+    }
+
+    .sostienici .row img{
+        
+        float: top;
+        width: 352px;
+        height: 300px;
+        left: 31px;
+        top: 4839px;
+    }
+    .sostienici .row .paragraph{
+        float: bottom;
+    }
+}
