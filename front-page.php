@@ -159,7 +159,7 @@
 
     <div class="volunteer-div" style="">
         <span class="volunteer-img">
-            <img src="<//?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_quiz_nlyh 1.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_quiz_nlyh 1.png">
         </span>
 
         <span class="volunteer-p">
@@ -204,7 +204,7 @@
         </span>
 
         <span class="contact-img">
-            <img src="<//?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_online_information_4ui6.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_online_information_4ui6.png">
         </span>
     </div>
 </section>
