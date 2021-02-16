@@ -289,27 +289,16 @@ body {
     }
 }
 
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
 /*Volunteer code added by Alex*/
-.volunteer{
+.volunteer {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 273px;
 }
 
 .volunteer > h2 {
     font-size: 46px;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 20px;
-
     margin-left: 7.5%;
     margin-bottom: 50px;
     text-align: left;
@@ -319,105 +308,7 @@ body {
     display: inline-flex;
     align-items: center;
     text-align: left;
-    margin-bottom: 75px;
-}
-
-.volunteer-div > span {
-    width: 50%;
-}
-
-.volunteer-p {
-    line-height: 28px;
-    font-size: 20px;
-}
-
-.volunteer-p > p {
-    margin-right: 15%;
-}
-
-.volunteer-img > img{
-    margin-left: 15%;
-    width: 75%;
-}
-
-.volunteer > a {
-    padding: 16px 46px;
-    background-color: #646464;
-    font-size: 26px;
-    color: white;
-    text-decoration: none;
-    font-family: 'NeuzeitGroteskCondW01-Black';
-    border-radius: 8px;
-}
-
-/*Volunteer section responsive Author: Alex*/
-
-@media screen and (max-width: 800px) {
-    .volunteer > h2 {
-        text-align: center;
-        margin-left: 0;
-        font-size: 50px;
-    }
-
-    .volunteer-div {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .volunteer-div > span {
-        width: 90%;
-    }
-
-    .volunteer-p {
-        text-align: center;
-    }
-
-    .volunteer-p > p {
-        margin-right: 0;
-    }
-
-    .volunteer-img > img {
-        margin-bottom: 60px;
-        margin-left: 0;
-        width: 100%;
-    }
-}
-
-/*End volunteer section*/
-
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-/*Volunteer code added by Alex*/
-.volunteer{
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.volunteer > h2 {
-    font-size: 46px;
-    color: #303030;
-    font-weight: 400;
-    margin-bottom: 20px;
-
-    margin-left: 7.5%;
-    margin-bottom: 50px;
-    text-align: left;
-}
-
-.volunteer-div {
-    display: inline-flex;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 75px;
+    margin-bottom: 190px;
 }
 
 .volunteer-div > span {
@@ -506,7 +397,7 @@ body {
     margin-right: 15%;
 }
 
-.test {
+.contact-span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -829,4 +720,13 @@ body {
     .sostienici .row .paragraph{
         float: bottom;
     }
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }

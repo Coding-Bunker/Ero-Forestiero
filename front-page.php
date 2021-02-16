@@ -188,7 +188,7 @@
     <h2><strong>Contatti</strong></h2>
 
     <div class="contact-div">
-        <span class="test">
+        <span class="contact-span">
             <span class="contact-p">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris,
