@@ -376,6 +376,10 @@ body {
 /*End volunteer section*/
 
 /*Contact section added by Alex*/
+.contact {
+    margin-bottom: 250px;
+}
+
 .contact > h2 {
     font-size: 46px;
     color: #303030;

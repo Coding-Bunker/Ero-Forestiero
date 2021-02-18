@@ -208,3 +208,5 @@
         </span>
     </div>
 </section>
+
+<?php get_footer(); ?>
