@@ -9,6 +9,10 @@ main {
     font-size: 18px;
 }
 
+.intro-section {
+    margin-top: 170px;
+}
+
 .intro-section > p {
     text-align: center;
     font-size: 55px;
@@ -43,6 +47,7 @@ main {
     display: flex;
     padding: 0 7.5%;
     align-items: center;
+    margin-bottom: 110px;
 }
 
 .comune > img {
