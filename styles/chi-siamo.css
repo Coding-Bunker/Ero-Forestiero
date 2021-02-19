@@ -9,6 +9,8 @@ main {
     font-size: 18px;
 }
 
+/*Sezione intro*/
+
 .intro-section {
     margin-top: 170px;
 }
@@ -40,6 +42,8 @@ main {
     padding-bottom: 20px;    
 }
 
+/*Sezione banner del comune di Vigevano*/
+
 .comune {
     background-color: rgba(48, 48, 48, 0.05);
     width: 100%;
@@ -53,4 +57,31 @@ main {
 .comune > img {
     height: 80%;
     width: auto;
+}
+
+/*Sezione "La nostra storia"*/
+
+.storia > h2 {
+    margin: 0 auto 76px auto;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.storia-div {
+    display: flex;
+}
+
+.storia-div > span {
+    width: 50%;
+}
+
+.storia-paragraph > p{
+    line-height: 34px;
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+.storia-img > img {
+    margin-right: 15%;
 }
