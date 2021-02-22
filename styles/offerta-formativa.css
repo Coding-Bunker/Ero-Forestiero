@@ -86,3 +86,16 @@ main {
 .vertical-card-text > p {
     font-size: 18px;
 }
+
+
+
+
+
+
+.offerta-formativa__dad {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.dad__title {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+}

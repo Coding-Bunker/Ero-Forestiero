@@ -77,3 +77,18 @@
     </div>
 
 </section>
+
+<section class="who-we-are offerta-formativa__dad clearfix">
+    <h2 class="about__title dad__title">Didattica a distanza</h2>
+
+    <div class="about__columns-div">
+        <span class="about__column">
+            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p> <br><br>
+            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p>
+        </span>
+
+        <span class="about__column-image dad-image-container">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_youtube_tutorial_2gn3 1.png" alt="dad-lesson" class="dad-image">
+        </span>
+    </div>
+</section>
