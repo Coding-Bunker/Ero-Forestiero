@@ -83,5 +83,86 @@ main {
 }
 
 .storia-img > img {
+    width: 75%;
     margin-right: 15%;
+}
+
+/*Sezione "I nostri volontari" */
+
+.our-volunteer > h2 {
+    margin-top: 129px;
+    margin-bottom: 44px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 44px;
+}
+
+.our-volunteer > p {
+    text-align: center;
+    margin: 0 23% 66px 23%;
+}
+
+/* Sottosezione "Card" */
+
+.card-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-flexbox:first-of-type {
+    margin-bottom: 116px;
+} 
+
+.volunteer-card {
+    width: 310px;
+    height: 554px;
+
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.volunteer-card:last-of-type {
+    margin-right: 0;
+}
+
+.volunteer-card:last-of-type {
+    margin-right: 0;
+}
+
+.volunteer-avatar > img {
+    display: block;
+    margin: 42px auto 0 auto;
+}
+
+.anagrafica {
+    text-align: center
+}
+
+.anagrafica > p:first-of-type {
+    margin: 47px auto 7px auto;
+}
+
+.descrizione > p {
+    margin: 37px 26.5px 0 26.5px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.button-volunteer {
+    text-align: center;
+}
+
+.button-volunteer > a{
+    display: inline-block;
+    margin: 117px 0;
+    background-color: #646464;
+    padding: 16px 46px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 26px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
 }

@@ -25,9 +25,9 @@
         <!-- Link a tutti i fogli di stile -->
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/front-page.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/chi-siamo.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/general-styles.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/404.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/chi-siamo.css" type="text/css" media="all" />
 
 		<!-- Stili e script di integrazione per Font Awesome -->
         <script src="https://kit.fontawesome.com/0999994394.js" crossorigin="anonymous"></script>
