@@ -229,4 +229,172 @@
             <a href="#">Conosci altri volontari</a>
         </div>
     </section>
+
+    <section class="our-student">
+        <h2>I nostri Studenti</h2>
+
+        <p>
+            La parola studenti forse fa venire in mente uno scolaretto, tra i 7 e i 15 anni, che con il suo
+            zainetto si prepara ad andare a scuola un po' contro voglia. Bene, scordatevi questa
+            immagine
+        </p>
+
+        <p>
+            Gli studenti di Ero Forestiero sono il secondo mattoncino alla base dell'Associazione, senza i
+            quali la nostra attività non avrebbe senso di esistere.
+        </p>
+
+        <div class="card-flexbox">
+            <div class="volunteer-card">
+                <div class="volunteer-avatar">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/photo-1544725176-7c40e5a71c5e.png" />
+                </div>
+
+                <div class="anagrafica">
+                    <p>
+                        <span>Egitto</span>
+                    </p>
+                    <p>
+                        <span>Ahmad Muhammad</span>
+                    </p>
+                </div>
+
+                <div class="descrizione">
+                    <p>
+                        "Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Sed
+                        nisi lacus, varius non ipsum vel,
+                        pharetra luctus tellus.""
+                    </p>
+                </div>
+            </div>
+
+            <div class="volunteer-card">
+                <div class="volunteer-avatar">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/b3bcf0457cc5b06dba97c849b293fb6a.jpg" />
+                </div>
+
+                <div class="anagrafica">
+                    <p>
+                        <span>Perù</span>
+                    </p>
+                    <p>
+                        <span>Juan Diego Gutiérrez</span>
+                    </p>
+                </div>
+
+                <div class="descrizione">
+                    <p>
+                        "Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Sed
+                        nisi lacus, varius non ipsum vel,
+                        pharetra luctus tellus.""
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="volunteer-card">
+                <div class="volunteer-avatar">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/a9148b1c2728e93a98d285f9616d8ec6.png" />
+                </div>
+
+                <div class="anagrafica">
+                    <p>
+                        <span>Ecuador</span>
+                    </p>
+                    <p>
+                        <span>Paulina Obando</span>
+                    </p>
+                </div>
+
+                <div class="descrizione">
+                    <p>
+                        "Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Sed
+                        nisi lacus, varius non ipsum vel,
+                        pharetra luctus tellus.""
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-flexbox">
+            <div class="volunteer-card">
+                <div class="volunteer-avatar">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/photo-1544725176-7c40e5a71c5e.png" />
+                </div>
+
+                <div class="anagrafica">
+                    <p>
+                        <span>Egitto</span>
+                    </p>
+                    <p>
+                        <span>Ahmad Muhammad</span>
+                    </p>
+                </div>
+
+                <div class="descrizione">
+                    <p>
+                        "Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Sed
+                        nisi lacus, varius non ipsum vel,
+                        pharetra luctus tellus."
+                    </p>
+                </div>
+            </div>
+
+            <div class="volunteer-card">
+                <div class="volunteer-avatar">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/b3bcf0457cc5b06dba97c849b293fb6a.jpg" />
+                </div>
+
+                <div class="anagrafica">
+                    <p>
+                        <span>Perù</span>
+                    </p>
+                    <p>
+                        <span>Juan Diego Gutiérrez</span>
+                    </p>
+                </div>
+
+                <div class="descrizione">
+                    <p>
+                        "Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Sed
+                        nisi lacus, varius non ipsum vel,
+                        pharetra luctus tellus.""
+                    </p>
+                </div>
+            </div>
+
+            <div class="volunteer-card">
+                <div class="volunteer-avatar">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/a9148b1c2728e93a98d285f9616d8ec6.png" />
+                </div>
+
+                <div class="anagrafica">
+                    <p>
+                        <span>Ecuador</span>
+                    </p>
+                    <p>
+                        <span>Paulina Obanda</span>
+                    </p>
+                </div>
+
+                <div class="descrizione">
+                    <p>
+                        "Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Sed
+                        nisi lacus, varius non ipsum vel,
+                        pharetra luctus tellus.""
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="button-volunteer">
+            <a href="#">Conosci altri studenti</a>
+        </div>
+    </section>
 </div>
