@@ -252,7 +252,7 @@
 
                 <div class="anagrafica">
                     <p>
-                        <span>Egitto</span>
+                        Egitto
                     </p>
                     <p>
                         <span>Ahmad Muhammad</span>
@@ -276,7 +276,7 @@
 
                 <div class="anagrafica">
                     <p>
-                        <span>Perù</span>
+                        Perù
                     </p>
                     <p>
                         <span>Juan Diego Gutiérrez</span>
@@ -301,7 +301,7 @@
 
                 <div class="anagrafica">
                     <p>
-                        <span>Ecuador</span>
+                        Ecuador
                     </p>
                     <p>
                         <span>Paulina Obando</span>
@@ -327,7 +327,7 @@
 
                 <div class="anagrafica">
                     <p>
-                        <span>Egitto</span>
+                        Egitto
                     </p>
                     <p>
                         <span>Ahmad Muhammad</span>
@@ -351,7 +351,7 @@
 
                 <div class="anagrafica">
                     <p>
-                        <span>Perù</span>
+                        Perù
                     </p>
                     <p>
                         <span>Juan Diego Gutiérrez</span>
@@ -375,7 +375,7 @@
 
                 <div class="anagrafica">
                     <p>
-                        <span>Ecuador</span>
+                        Ecuador
                     </p>
                     <p>
                         <span>Paulina Obanda</span>

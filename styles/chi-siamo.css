@@ -146,11 +146,17 @@ main {
 }
 
 .anagrafica {
-    text-align: center
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    text-align: center;
+    font-size: 20px;
 }
 
 .anagrafica > p:first-of-type {
     margin: 47px auto 7px auto;
+}
+
+.anagrafica > p > span {
+    font-weight: bold;
 }
 
 .descrizione > p {
