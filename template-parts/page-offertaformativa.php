@@ -79,7 +79,7 @@
 </section>
 
 <section class="who-we-are offerta-formativa__dad clearfix">
-    <h2 class="about__title dad__title">Didattica a distanza</h2>
+    <h2 class="courses__title dad__title">Didattica a distanza</h2>
 
     <div class="about__columns-div">
         <span class="about__column">
