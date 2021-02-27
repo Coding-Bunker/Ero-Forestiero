@@ -92,3 +92,58 @@
         </span>
     </div>
 </section>
+
+<section class="faq-form">
+        <h1 class="faq-title">FAQ</h1>
+        <div class="faq-form__card">
+            <div class="faq-image">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_Questions_re_1fy7 1.png">
+            </div>
+            <div class="faq-question-container">
+
+                    <div class="questions">
+                        <div class="question-label" id="1" onclick="openAnswer(this.id)">
+                            <h3 id="text1">How many team members can I invite?</h3>
+                            <i class="fa fa-angle-down" id="arrow1"></i>
+                            <div class="answer-collapse" id="ans1">
+                                <h4>Lorem ipsum dolor sit amet Lorem ipsum</h4>
+                            </div>
+                        </div>
+
+                        <div class="question-label" id="2" onclick="openAnswer(this.id)">
+                            <h3 id="text2">How many team members can I invite?</h3>
+                            <i class="fa fa-angle-down" id="arrow2"></i>
+                            <div class="answer-collapse" id="ans2">
+                                <h4>Lorem ipsum dolor sit amet Lorem ipsum</h4>
+                            </div>
+                        </div>
+
+                        <div class="question-label" id="3" onclick="openAnswer(this.id)">
+                            <h3 id="text3">How many team members can I invite?</h3>
+                            <i class="fa fa-angle-down" id="arrow3"></i>
+                            <div class="answer-collapse" id="ans3">
+                                <h4>Lorem ipsum dolor sit amet Lorem ipsum</h4>
+                            </div>
+                        </div>
+
+                        <div class="question-label" id="4" onclick="openAnswer(this.id)">
+                            <h3 id="text4">How many team members can I invite?</h3>
+                            <i class="fa fa-angle-down" id="arrow4"></i>
+                            <div class="answer-collapse" id="ans4">
+                                <h4>Lorem ipsum dolor sit amet Lorem ipsum</h4>
+                            </div>
+                        </div>
+
+                        <div class="question-label" id="5" onclick="openAnswer(this.id)">
+                            <h3 id="text5">How many team members can I invite?</h3>
+                            <i class="fa fa-angle-down" id="arrow5"></i>
+                            <div class="answer-collapse" id="ans5">
+                                <h4>Lorem ipsum dolor sit amet Lorem ipsum</h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+            </div>
+        </div>
+    </section>
