@@ -52,6 +52,8 @@
                     Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.
                 </p>
 
+                <br>
+                
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non
                     porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor.
