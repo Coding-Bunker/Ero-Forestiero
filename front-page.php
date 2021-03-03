@@ -53,10 +53,10 @@
         <div class="row">
             <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/undraw_social_distancing_2g0u 2.png" alt="">
             <div class="group-text">
-                <div class="paragraph_1">
+                <div class="paragraph1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p>
                 </div>
-                <div class="paragraph_2">
+                <div class="paragraph2">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p>
                 </div>    
             </div>

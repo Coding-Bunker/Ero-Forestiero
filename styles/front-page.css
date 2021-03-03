@@ -24,7 +24,7 @@
 .testimonianze-section{
     display: flex;
     text-align: center;
-    margin-left: 110px;
+    margin-left: 85px;
 }
 
 .testimonianze-section .prospect{
@@ -35,7 +35,7 @@
     background: #FFFFFF;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin: 0 92px 0 0;
+    margin: 0 50px 0 0;
     text-align: center;
 }
 
@@ -104,7 +104,7 @@
     cursor: pointer;
     
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .testimonianze .text h4{
         text-align: center;
         font-size:46px;
@@ -136,8 +136,8 @@
 }
 
 .covid-19 .row img{
-    width: 647px;
-    height: 554px;
+    width: 617px;
+    height: 524px;
     padding-left: 30px;
     margin-top: 190px;
 }
@@ -148,9 +148,9 @@
     margin-bottom: 80px;
     text-align: justify;
     font-size: 24px;
-    padding-left: 252px;
+    padding-left: 120px;
 }
-.group-text .paragraph_1{
+.group-text .paragraph1{
     padding-bottom: 126px;
 }
 .btn-section{
@@ -168,8 +168,20 @@
     border-radius: 8px;
     cursor: pointer;
 }
+@media screen and (min-width: 600px){
 
-@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 600px) {
+    .covid-19{
+        flex-direction: column;
+    }
+    .covid-19 .row img{
+        width: 330px;
+        height: 283px;
+        padding-left: 42px;
+        margin-top: 46px;
+        margin-bottom: 70px;
+    }
     
 }
 
@@ -196,29 +208,30 @@
 }
 .sostienici .row .paragraph{
     float: left;
-    width: 800px;
+    width: 700px;
     font-style: normal;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 30px;
     margin-top: 100px;
     text-align: justify;
     font-size: 24px;
-    padding-right:100px;
+    padding-right:80px;
 }
 .sostienici .btn{
-    width: 194px;
-    height: 77px;
+    width: 184px;
+    height: 67px;
     background-color: orange;
     color: white;
-    font-size: 28px;
+    font-size: 25px;
     font-style: normal;
     border-radius: 8px;
     margin-top: 60px;
     cursor: pointer;
 }
 .sostienici .row img{
-    width: 512px;
-    height: 436px;
+    margin-top: 50px;
+    width: 482px;
+    height: 410px;
 }
 
 .sostienici .row .paragraph p{
