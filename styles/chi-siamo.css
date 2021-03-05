@@ -1,0 +1,252 @@
+@import url('//db.onlinewebfonts.com/c/edeb336ecd776e23d99355eb2b52cbc7?family=NeuzeitGroteskW01-Regular');
+@import url('//db.onlinewebfonts.com/c/3b51be541e8086f75a52deac06dba6ee?family=NeuzeitGroteskCondW01-Black');
+
+main {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'NeuzeitGroteskW01-Regular', 'NeuzeitGroteskCondW01-Black';
+    font-size: 18px;
+}
+
+/*Sezione intro*/
+
+.intro-section {
+    margin-top: 170px;
+}
+
+.intro-section > p {
+    text-align: center;
+    font-size: 55px;
+    margin: 0 15% 50px 15%;
+}
+
+.intro-paragraph {
+    margin: 0 22%;
+    display: flex;
+}
+
+.intro-paragraph > p {
+    width: 50%;
+    padding-right: 20px;
+    font-size: 26px;
+    margin-bottom: 152px;
+}
+
+.intro-paragraph > div {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.intro-paragraph > div > p:first-of-type {
+    padding-bottom: 20px;    
+}
+
+/*Sezione banner del comune di Vigevano*/
+
+.comune {
+    background-color: rgba(48, 48, 48, 0.05);
+    width: 100%;
+    height: 222px;
+    display: flex;
+    padding: 0 7.5%;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.comune > img {
+    height: 80%;
+    width: auto;
+}
+
+/*Sezione "La nostra storia"*/
+
+.storia > h2 {
+    margin: 0 auto 76px auto;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.storia-div {
+    display: flex;
+}
+
+.storia-div > span {
+    width: 50%;
+}
+
+.storia-paragraph > p{
+    line-height: 28px;
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+.storia-img > img {
+    width: 75%;
+    margin-right: 15%;
+}
+
+/*Sezione "I nostri volontari" e "I nostri studenti" */
+
+.our-volunteer > h2,
+.our-student > h2 {
+    margin-top: 129px;
+    margin-bottom: 44px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 44px;
+}
+
+.our-volunteer > p,
+.our-student > p {
+    text-align: center;
+    margin: 0 23% 66px 23%;
+}
+
+.our-student > p:first-of-type {
+    margin-bottom: 0;
+}
+
+/* Sottosezione "Card" */
+
+.card-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-flexbox:first-of-type {
+    margin-bottom: 116px;
+} 
+
+.volunteer-card {
+    width: 310px;
+    height: 554px;
+
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.volunteer-avatar > img {
+    display: block;
+    margin: 42px auto 0 auto;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}
+
+.anagrafica {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    text-align: center;
+    font-size: 20px;
+}
+
+.anagrafica > p:first-of-type {
+    margin: 47px auto 7px auto;
+}
+
+.anagrafica > p > span {
+    font-weight: bold;
+}
+
+.descrizione > p {
+    margin: 37px 26.5px 0 26.5px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.button-volunteer {
+    text-align: center;
+}
+
+.button-volunteer > a{
+    display: inline-block;
+    margin: 117px 0;
+    background-color: #646464;
+    padding: 16px 46px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 26px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 950px) {
+    /*Storia section*/
+
+    .storia-div {
+        flex-direction: column-reverse;
+    }
+
+    .storia-div > span {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .storia-img > img {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .storia-paragraph > p{
+        text-align: center;
+        margin: 0;
+    }
+
+    /*Card section*/
+
+    .card-flexbox {
+        flex-direction: column;
+    }
+
+    .card-flexbox:first-of-type {
+        margin: 0;
+    }
+
+    .volunteer-card {
+        margin: 0 auto 50px auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .intro-section {
+        margin: 0;
+    }
+    
+    .intro-paragraph {
+        flex-direction: column;
+    }
+
+    .intro-paragraph > p {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .intro-paragraph > div {
+        width: 100%;
+        padding: 0;
+    }
+
+    .intro-paragraph > div > p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .comune {
+        width: 100%;
+        height: 200%;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .comune > div {
+        text-align: center;
+    }
+}

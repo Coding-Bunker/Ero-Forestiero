@@ -28,6 +28,8 @@
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/general-styles.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/404.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/offerta-formativa.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/chi-siamo.css" type="text/css" media="all" />
+
 		<!-- Stili e script di integrazione per Font Awesome -->
         <script src="https://kit.fontawesome.com/0999994394.js" crossorigin="anonymous"></script>
         <link rel=“stylesheet” href=“https://use.fontawesome.com/releases/v5.5.0/css/all.css” integrity=“sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU” crossorigin=“anonymous”>
