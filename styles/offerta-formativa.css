@@ -1,0 +1,235 @@
+@import url('//db.onlinewebfonts.com/c/edeb336ecd776e23d99355eb2b52cbc7?family=NeuzeitGroteskW01-Regular');
+@import url('//db.onlinewebfonts.com/c/3b51be541e8086f75a52deac06dba6ee?family=NeuzeitGroteskCondW01-Black');
+
+main {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'NeuzeitGroteskW01-Regular', 'NeuzeitGroteskCondW01-Black';
+    font-size: 18px;
+}
+
+/*Sezione intro*/
+.offerta-formativa__intro {
+    text-align: center;
+    margin-top: 70px;
+}
+.offerta-formativa__intro > h1 {
+    font-size: 67px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.offerta-formativa__intro > h3 {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.offerta-formativa__courses-title {
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.offerta-formativa__testimony {
+    background-color: #008964;
+    color: #fff;
+    text-align: center;
+    padding: 6% 0;
+}
+.testimony__text {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimony__author {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+/*Sezione corsi*/
+.offerta-formativa__courses-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 90px;
+}
+.courses-main-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.courses-vertical-cards {
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vertical-card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 30px 0;
+}
+.vertical-card-text {
+    margin-left: 25px;
+}
+.vertical-card-text > h5 {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 20px;
+}
+.vertical-card-text > p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+.offerta-formativa__dad {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.dad__title {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+}
+
+.faq-form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 150px;
+}
+.faq-title {
+    position: absolute;
+    top: 0;
+    display: block;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+}
+.faq-form__card {
+    width: 73%;
+    height: 800px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 25px 25px -20px rgba(53, 18, 122, 0.497159);
+}
+
+.faq-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.faq-image > img {
+    width: 70%;
+}
+
+.faq-question-container {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions {
+    width: 80%;
+}
+.question-label {
+    margin-top: 25px;
+    border-bottom: 2px solid #E8E8EA;
+    padding-bottom: 20px;
+    display: block;
+}
+.question-label:hover {
+    cursor: pointer;
+}
+.question-label > h3, i {
+    display: inline;
+    vertical-align: middle;
+}
+.question-label > h3 {
+    font-weight: 400;
+}
+.question-label > i {
+    float: right; 
+    font-size: 25px; 
+    color: #008964;
+}
+
+.answer-collapse {
+    padding-top: 20px;
+    height: fit-content;
+    display: none;
+}
+.answer-collapse > h4 {
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 1366px) {
+    .offerta-formativa__intro > h1 {
+        font-size: 35px;
+        max-width: 100%;
+    }
+    .testimony__text {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .offerta-formativa__courses-container {
+        flex-direction: column;
+    }
+    .courses-vertical-cards {
+        width: 90%;
+        margin-top: 70px;
+    }
+    .offerta-formativa__dad {
+        margin-top: 60px;
+    }
+    .about__columns-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .faq-form__card {
+        flex-direction: column;
+    }
+    .faq-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .faq-image > img {
+        width: 40%;
+    }
+    
+    .faq-question-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .faq-form__card {
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+}
