@@ -1,0 +1,64 @@
+main {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'NeuzeitGroteskW01-Regular', 'NeuzeitGroteskCondW01-Black';
+    font-size: 24px;
+}
+
+.termini-header {
+    width: 50%;
+    margin-left: 7.5%;
+}
+
+.termini-header > h2 {
+    font-weight: bold;
+}
+
+.termini-intro {
+    display: flex;
+}
+
+.termini-intro > span {
+    width: 50%;
+}
+
+.index {
+    margin-left: 7.5%;
+}
+
+.index > h3 {
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+
+.termini-image {
+    margin-right: 7.5%;
+}
+
+.explanation {
+    width: 58.5%;
+    margin: 80px 0 516px 7.5%;
+}
+
+.explanation ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    padding: 0;
+}
+
+.explanation ol li {
+    counter-increment: my-awesome-counter;
+}
+
+.explanation ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #008964;
+    font-size: 44px;
+}
+
+.explanation h3 {
+    display: inline-flex;
+    color: #008964;
+    font-size: 44px;
+}
