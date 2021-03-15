@@ -67,7 +67,7 @@ body {
     margin-bottom: 45px;
 }
 .support-button {
-    padding: 16px 70px;
+    padding: 16px 90px;
 }
 
 .donation-card__payment-method {
@@ -81,7 +81,7 @@ body {
     font-size: 17px;
 }
 .donation-card__payment-method > img {
-    width: 5%;
+    width: 4%;
     opacity: 70%;
 }
 

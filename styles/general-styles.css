@@ -537,9 +537,9 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #191970;
+    color: #fff;
 }
-
+/*color: #191970;*/
 a:focus {
     outline: thin dotted;
 }
