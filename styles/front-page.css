@@ -58,7 +58,15 @@ body {
     font-size: 20px;
     text-decoration: none;
     color: white;
+    border-radius: 8px;
 }
+.intro-links > a:hover,
+.intro-links > a:focus,
+.intro-links > a:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .intro__link {
     margin-top: 2%;
     font-size: 20px;

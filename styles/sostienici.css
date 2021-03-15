@@ -1,0 +1,96 @@
+@import url('//db.onlinewebfonts.com/c/edeb336ecd776e23d99355eb2b52cbc7?family=NeuzeitGroteskW01-Regular');
+@import url('//db.onlinewebfonts.com/c/3b51be541e8086f75a52deac06dba6ee?family=NeuzeitGroteskCondW01-Black');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NeuzeitGroteskW01-Regular', 'NeuzeitGroteskCondW01-Black';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-image-section {
+    width: 100%;
+    margin: 90px 0;
+}
+.image-section_title {
+    margin-left: 15%;
+    margin-bottom: 40px;
+    font-size: 56px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+}
+.support__paragraph {
+    max-width: 60%;
+}
+
+.reverse-column {
+    flex-direction: row-reverse;
+}
+.left-image {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.donation-card-section {
+    width: 100%;
+    margin: 90px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donation-card {
+    width: 60%;
+    padding: 75px 0;
+    background-color: rgba(254, 210, 83, 80%);
+    box-shadow: 0px 80px 120px rgba(54, 54, 54, 0.1);
+    border-radius: 27px;
+    text-align: center;
+}
+.donation-card__big-caption {
+    font-size: 48px;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    margin-bottom: 90px;
+}
+.green-text {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    color: #008964;
+}
+
+.donation-card__tiny-caption {
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+.support-button {
+    padding: 16px 70px;
+}
+
+.donation-card__payment-method {
+    margin-top: 45px;
+}
+.donation-card__payment-method > * {
+    display: inline;
+    vertical-align: middle;
+}
+.donation-card__payment-method > p {
+    font-size: 17px;
+}
+.donation-card__payment-method > img {
+    width: 5%;
+    opacity: 70%;
+}
+
+@media screen and (max-width: 767px) {
+    .image-section_title {
+        margin: 0;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: normal;
+    }
+}
