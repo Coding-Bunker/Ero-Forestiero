@@ -85,6 +85,15 @@ body {
     opacity: 70%;
 }
 
+.model730-title {
+    text-align: center;
+}
+.download-button {
+    margin-left: 15%;
+    margin-top: 40px;
+}
+
+
 @media screen and (max-width: 767px) {
     .image-section_title {
         margin: 0;
