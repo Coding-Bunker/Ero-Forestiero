@@ -28,6 +28,7 @@ body {
     max-width: 60%;
 }
 
+
 .reverse-column {
     flex-direction: row-reverse;
 }
@@ -85,6 +86,7 @@ body {
     opacity: 70%;
 }
 
+
 .model730-title {
     text-align: center;
 }
@@ -94,6 +96,11 @@ body {
 }
 
 
+@media screen and (max-width: 1366px) {
+    .normal-column {
+        flex-direction: row;
+    }
+}
 @media screen and (max-width: 767px) {
     .image-section_title {
         margin: 0;
@@ -101,5 +108,41 @@ body {
         margin-left: auto;
         margin-right: auto;
         line-height: normal;
+    }
+    .reverse-column {
+        flex-direction: column-reverse;
+    }
+    .normal-column {
+        flex-direction: column-reverse;
+    }
+
+    .donation-card {
+        width: 90%;
+    }
+    .donation-card__payment-method > * {
+        display: block;
+    }
+    .donation-card__payment-method > img {
+        width: 16%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 345px) {
+    .donation-card__big-caption {
+        font-size: 36px;
+        font-family: 'NeuzeitGroteskCondW01-Black';
+        margin-bottom: 90px;
+    }
+    .donation-card__payment-method > * {
+        display: block;
+    }
+    .donation-card__payment-method > img {
+        width: 16%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .support-button {
+        padding: 16px 50px;
     }
 }

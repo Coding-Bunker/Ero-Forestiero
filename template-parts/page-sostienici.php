@@ -1,7 +1,7 @@
 
 <section class="right-image-section">
 
-    <div class="about__columns-div">
+    <div class="about__columns-div normal-column">
         <span class="about__column">
             <h2 class="image-section_title">Sostienici</h2>
             <p class="about__paragraph support__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p> <br><br>
@@ -48,7 +48,7 @@
 <section class="right-image-section">
     <h1 class="model730-title about__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (730)</h1>
 
-    <div class="about__columns-div">
+    <div class="about__columns-div normal-column">
         <span class="about__column">
             <h2 class="image-section_title">Modello 730</h2>
             <p class="about__paragraph support__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p> <br><br>
