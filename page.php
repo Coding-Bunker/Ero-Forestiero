@@ -13,6 +13,10 @@
     if(is_page('termini-e-condizioni')) {
         get_template_part('template-parts/page', 'terminicondizioni');
     }
+
+    if(is_page('cookie-policy')) {
+        get_template_part('template-parts/page', 'cookiepolicy');
+    }
     ?>
 </div>
 
