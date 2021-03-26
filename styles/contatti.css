@@ -1,0 +1,96 @@
+@import url('//db.onlinewebfonts.com/c/edeb336ecd776e23d99355eb2b52cbc7?family=NeuzeitGroteskW01-Regular');
+@import url('//db.onlinewebfonts.com/c/3b51be541e8086f75a52deac06dba6ee?family=NeuzeitGroteskCondW01-Black');
+
+main {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'NeuzeitGroteskW01-Regular', 'NeuzeitGroteskCondW01-Black';
+    font-size: 18px;
+}
+
+.contactpage-section {
+    text-align: center;
+    margin: 100px 0 160px 0;
+}
+.contactpage-title {
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    font-size: 52px;
+}
+
+.contactpage-container {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+.contactpage-card-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.contactpage-form {
+    width: 60%;
+}
+
+
+.contactpage-card {
+    width: 60%;
+    background-color: #3D3D3D;
+    color: #fff;
+    padding: 45px 30px 80px 30px;
+}
+.contactpage-card_header {
+    margin-bottom: 60px;
+}
+
+.contactpage-card-line {
+    margin: 10px 0;
+}
+.contactpage-card-line > * {
+    display: inline;
+}
+.contactpage-card-line > i {
+    margin-right: 20px;
+}
+
+.contactpage-card-social {
+    margin-top: 50px;
+}
+
+
+.form-single {
+    display: inline-block;
+    width: 35%;
+    margin-bottom: 45px;
+}
+.form-single > label {
+    display: block;
+}
+.contact-input {
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #C6C6C6 !important;
+    border-left: none !important;
+    width: 90%;
+    border-radius: 0 !important;
+}
+.contact-input:focus,
+.contact-input:hover,
+.contact-input:active
+{
+    border-color: #008964 !important;
+}
+
+.form-double {
+    width: 75%;
+}
+.form-double > textarea {
+    resize: none;
+}
+
+.contactpage-send_button {
+    margin-top: 70px;
+    border-radius: 8px;
+    padding: 10px 46px;
+}
