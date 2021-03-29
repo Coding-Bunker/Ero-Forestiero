@@ -94,3 +94,108 @@ main {
     border-radius: 8px;
     padding: 10px 46px;
 }
+
+
+
+
+@media screen and (max-width: 1320px){
+    .contactpage-container {
+        flex-direction: column;
+    }
+    .contactpage-container > * {
+        width: 100%;
+        margin: 0;
+        padding: 20px 5%;
+    }
+    .contactpage-card {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 45px;
+    }
+    .contactpage-card > * {
+        width: 33.3%;
+        padding: 0 15px;
+        margin: 0;
+    }
+    .contactpage-card-social {
+        text-align: center;
+        padding-top: 7px;
+    }
+
+    .contact-input {
+        width: 90%;
+    }
+    .form-single {
+        display: inline-block;
+        width: 47%;
+        margin-bottom: 45px;
+    }
+    .form-double {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .contactpage-card {
+        padding: 45px 10px;
+    }
+    .contactpage-card-title {
+        font-size: 43px;
+    }
+    .contactpage-card-line > i {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 945px){
+    .contactpage-card {
+        width: 100%;
+        display: unset;
+        padding: 45px 10px;
+    }
+    .contactpage-card-title {
+        font-size: 43px;
+    }
+    .contactpage-card-line > i {
+        margin-right: 10px;
+    }
+    .contactpage-card > * {
+        width: 80%;
+        padding: 0 15px;
+        margin-bottom: 45px;
+    }
+    .contactpage-card-social {
+        text-align: left;
+        padding-top: 7px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .contactpage-card {
+        width: 100%;
+        display: unset;
+        padding: 45px 10px;
+    }
+    .contactpage-card > * {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 45px;
+    }
+    .contactpage-card-social {
+        text-align: left;
+        padding-top: 4px;
+    }
+
+    .form-single {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .form-double {
+        width: 100%;
+    }
+    .contact-input {
+        width: 100%;
+    }
+}

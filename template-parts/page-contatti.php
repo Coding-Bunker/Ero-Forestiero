@@ -8,7 +8,7 @@
 
             <div class="contactpage-card">
                 <div class="contactpage-card_header">
-                    <h1 class="contactpage-title">Contattaci</h1>
+                    <h1 class="contactpage-title contactpage-card-title">Contattaci</h1>
                     <p class="contactpage-text" style="max-width: 80%">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div class="contactpage-card_content">
@@ -21,11 +21,10 @@
                         <i class="fas fa-envelope"></i>
                         <h5 class="contactpage-text">eroforestiero@gmail.com</h5>
                     </div>
-
-                    <div class="contactpage-card-social">
-                        <a href="" class="footer-social"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="" class="footer-social"><i class="fab fa-instagram"></i></a>
-                    </div>
+                </div>
+                <div class="contactpage-card-social">
+                    <a href="" class="footer-social"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="" class="footer-social"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
 
@@ -55,7 +54,7 @@
                 </div>
 
                 <div class="form-double">
-                    <label for="message">Messaggio</label>
+                    <label for="message">Messaggio</label><br>
                     <textarea name="message" id="" cols="30" rows="6" placeholder="Scrivi qui il tuo messaggio" class="contact-input"></textarea>
                 </div>
 
