@@ -80,6 +80,7 @@ main {
 .contact-input:active
 {
     border-color: #008964 !important;
+    outline: none;
 }
 
 .form-double {
