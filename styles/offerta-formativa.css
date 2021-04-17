@@ -1,5 +1,23 @@
-@import url('//db.onlinewebfonts.com/c/edeb336ecd776e23d99355eb2b52cbc7?family=NeuzeitGroteskW01-Regular');
-@import url('//db.onlinewebfonts.com/c/3b51be541e8086f75a52deac06dba6ee?family=NeuzeitGroteskCondW01-Black');
+@font-face 
+{
+    font-family: "NeuzeitGroteskW01-Regular"; 
+    src: url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.eot"); 
+    src: url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/edeb336ecd776e23d99355eb2b52cbc7.svg#NeuzeitGroteskW01-Regular") format("svg"); 
+}
+@font-face 
+{
+    font-family: "NeuzeitGroteskCondW01-Black"; 
+    src: url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.eot"); 
+    src: url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/3b51be541e8086f75a52deac06dba6ee.svg#NeuzeitGroteskCondW01-Black") format("svg");
+}
 
 main {
     padding: 0;
