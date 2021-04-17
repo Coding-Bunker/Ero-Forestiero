@@ -30,6 +30,7 @@
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/offerta-formativa.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/sostienici.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/chi-siamo.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/contatti.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/terminicondizioni.css" type="text/css" media="all" />
 
 		<!-- Stili e script di integrazione per Font Awesome -->

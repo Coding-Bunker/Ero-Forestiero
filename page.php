@@ -9,6 +9,10 @@
     if (is_page('chi-siamo')) {
         get_template_part('template-parts/page', 'chisiamo');
     }
+
+    if (is_page('contatti')) {
+        get_template_part('template-parts/page', 'contatti');
+    }
   
     if (is_page('sostienici')) {
         get_template_part('template-parts/page', 'sostienici');
