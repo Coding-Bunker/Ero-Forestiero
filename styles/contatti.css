@@ -65,10 +65,17 @@ main {
 .contactpage-card-line {
     margin: 10px 0;
 }
-.contactpage-card-line > * {
+.contactpage-card-line > a {
+    color: #fff;
+    text-decoration: none;
+}
+.contactpage-card-line > a:hover {
+    color: #008964;
+}
+.contactpage-card-line > a > * {
     display: inline;
 }
-.contactpage-card-line > i {
+.contactpage-card-line > a > i {
     margin-right: 20px;
 }
 

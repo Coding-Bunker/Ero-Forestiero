@@ -284,6 +284,7 @@ a:active {
     color: white;
     text-decoration: none;
     font-family: 'NeuzeitGroteskCondW01-Black';
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
 }
 .courses__button-primary > a:hover,
@@ -291,6 +292,7 @@ a:active {
     background-color: #646464;
     color: white;
 }
+
 
 /* Mobile responsive sezione Corsi - Author: Andrea */
 @media screen and (max-width: 1366px) {
@@ -383,6 +385,9 @@ a:active {
     font-family: 'NeuzeitGroteskCondW01-Black';
     border-radius: 8px;
 }
+.volunteer > a:hover {
+    color: white;
+}
 
 /*Volunteer section responsive Author: Alex*/
 
@@ -474,6 +479,9 @@ a:active {
     text-decoration: none;
     font-family: 'NeuzeitGroteskCondW01-Black';
     border-radius: 8px;
+}
+.contact-a > a:hover {
+    color: white;
 }
 
 /*Contact section responsive Author: Alex*/
@@ -620,17 +628,28 @@ a:active {
 
 .testimonianze .btn{
     margin-top: 140px;
-    width: 200px;
-    height: 77px;
+    padding: 12px 46px;
     background-color: #646464;
+    font-size: 26px;
     color: white;
-    font-size: 28px;
-    border-radius:8px;
-    border: 2px solid black;
-    margin-bottom: 265px;
-    cursor: pointer;
-    
+    text-decoration: none;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
+.testimonianze .btn:hover {
+    margin-top: 140px;
+    padding: 12px 46px;
+    background-color: #646464;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    border-radius: 8px;
+    border-color: #646464;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
 @media (max-width: 600px) {
     .testimonianze .text h4{
         text-align: center;
@@ -645,9 +664,8 @@ a:active {
     margin-bottom: 290px;
 }
 .covid-19 .container{
-    margin: 80px;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    grid-gap: 20px;
+    margin: 0;
+    max-width: 100% !important;
 }
 
 .covid-19 .title{
@@ -679,6 +697,9 @@ a:active {
 }
 .group-text .paragraph_1{
     padding-bottom: 126px;
+}
+.covid-19 .courses__button-primary {
+    text-align: center;
 }
 .btn-section{
     text-align: center;
@@ -733,15 +754,17 @@ a:active {
     padding-right:100px;
 }
 .sostienici .btn{
-    width: 194px;
-    height: 77px;
-    background-color: orange;
+    padding: 16px 46px;
+    background-color: #FED253;
+    font-size: 26px;
     color: white;
-    font-size: 28px;
-    font-style: normal;
+    text-decoration: none;
+    font-family: 'NeuzeitGroteskCondW01-Black';
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    margin-top: 60px;
-    cursor: pointer;
+}
+.sostienici .btn:hover {
+    border-color: #FED253;
 }
 .sostienici .row img{
     width: 512px;
