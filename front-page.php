@@ -109,6 +109,7 @@
             </div>
         </div>
     </div>
+    
     <button class="btn" type="button">Iscriviti</button>
 
 </section>
@@ -116,19 +117,31 @@
 <section class="covid-19">
     <div class="container">
         <div class="title" title>Covid-19</div>
-        <div class="row">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_social_distancing_2g0u 2.png" alt="">
-            <div class="group-text">
-                <div class="paragraph_1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p>
-                </div>
-                <div class="paragraph_2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu interdum leo. Aenean diam mauris, congue non porta tincidunt, venenatis sed quam. Aliquam vestibulum eros sit amet fringilla finibus. Integer et lacinia tortor. Maecenas vitae velit ac sapien consequat fermentum. Nulla ut dui ut arcu auctor rhoncus. Pellentesque augue orci, faucibus non augue quis, rhoncus ornare nulla.</p>
-                </div>
-            </div>
+
+        <div class="volunteer-div" style="">
+            <span class="volunteer-img">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/undraw_social_distancing_2g0u 2.png">
+            </span>
+
+            <span class="volunteer-p">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consectetur,
+                    architecto expedita temporibus illo cum nihil veniam laborum, quasi iusto inventore sunt,
+                    autem et numquam placeat suscipit odit consequatur velit!
+                </p>
+
+                <br>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus,
+                    possimus in aliquam natus eveniet unde dolore magni sequi alias dignissimos
+                    repellendus ducimus adipisci beatae neque consequatur voluptatibus consequuntur labore.
+                </p>
+            </span>
         </div>
-        <div class="btn-section">
-            <button class="btn" type="button">Scopri l'offerta formativa</button>
+
+        <div class="courses__button-primary">
+            <a href="#">Scopri l'offerta formativa</a>
         </div>
     </div>
 
