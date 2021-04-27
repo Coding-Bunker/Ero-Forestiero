@@ -13,13 +13,17 @@
                 </div>
                 <div class="contactpage-card_content">
                     <div class="contactpage-card-line">
-                        <i class="fas fa-phone-alt"></i>
-                        <h5 class="contactpage-text">+39 0775 20 123 32</h5>
+                        <a href="tel:+3907752012332">
+                            <i class="fas fa-phone-alt"></i>
+                            <h5 class="contactpage-text">+39 0775 20 123 32</h5>
+                        </a>
                     </div>
 
                     <div class="contactpage-card-line">
-                        <i class="fas fa-envelope"></i>
-                        <h5 class="contactpage-text">eroforestiero@gmail.com</h5>
+                        <a href="mailto:eroforestiero@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            <h5 class="contactpage-text">eroforestiero@gmail.com</h5>
+                        </a>
                     </div>
                 </div>
                 <div class="contactpage-card-social">
