@@ -95,7 +95,7 @@ main {
 .contact-input {
     border-top: none !important;
     border-right: none !important;
-    border-bottom: 1px solid #C6C6C6 !important;
+    border-bottom: 1px solid #C6C6C6;
     border-left: none !important;
     width: 90%;
     border-radius: 0 !important;
