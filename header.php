@@ -58,8 +58,9 @@
                     <a class="navbar-brand brand-icon" href="<?php echo site_url(''); ?>">
                         <img class="brand-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ero-forestiero-logo-home.png" alt="">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="header-menu-button navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <!--<span class="navbar-toggler-icon"></span>-->
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/menu-fold-one.svg" alt="menu-open-icon">
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">

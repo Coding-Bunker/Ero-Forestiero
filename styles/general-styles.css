@@ -1051,6 +1051,13 @@ textarea {
     color: white;
 }
 
+.header-menu-button {
+    border: none !important;
+}
+.header-menu-button > img {
+    width: 75%;
+}
+
 @media screen and (max-width: 1185px) {
     .header {
         margin: 1em 2em;
