@@ -541,40 +541,7 @@ a:active {
 }
 
 /*End contact section*/
-
-.testimonianze{
-    margin-top: 20px; 
-    margin: 80px;
-    text-align: center;
-}
-.testimonianze .title{
-    text-align: left;
-    margin-bottom: 169px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 50px;
-    font-size: 44px;
-}
-
-.testimonianze-section{
-    display: flex;
-    text-align: center;
-    margin-left: 110px;
-}
-
-.testimonianze-section .prospect{
-    flex-direction: wrap;
-    flex-wrap: wrap;
-    width: 310px;
-    height: 554px;
-    background: #FFFFFF;
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin: 0 92px 0 0;
-    text-align: center;
-}
-
-.testimonianze-section .avatar img{
+.testimonianze__card .avatar img{
     
      width: 170px;
     height: 170px;
@@ -584,15 +551,19 @@ a:active {
     right: 70px;
     cursor: pointer;
 }
-.testimonianze-section .avatar-flag img{
+.testimonianze__card .avatar-flag {
+    margin-bottom: 20px;
+}
+.testimonianze__card .avatar-flag > * {
+    display: inline;
+}
+
+.testimonianze__card .avatar-flag img{
     cursor: pointer;
-    margin-left:142px;
-    margin-right: 142px;
-    margin-top: 17.67px;
     width: 26px;
     height:17.32px;
 }
-.testimonianze-section .avatar-flag p{
+.testimonianze__card .avatar-flag p{
     margin-top: 9.01px;
     margin-bottom: 10px;
     
@@ -604,17 +575,17 @@ a:active {
 
     color: #303030;
 }
-.testimonianze-section .story h4{
+.testimonianze__card .story h4{
     text-align: center;
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
     line-height: 23px;
 }
-.testimonianze-section .story p{
+.testimonianze__card .story p{
     margin-left: 26.5px;
     margin-right: 26.5px;
-    margin-bottom: 113px;
+    margin-bottom: 70px;
     padding-top: 20px;
     font-style: normal;
     font-weight: normal;

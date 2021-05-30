@@ -66,10 +66,11 @@
     </div>
 </section>
 
-<section class="testimonianze">
-    <div class="title" title>Alcune testimonianze</div>
-    <div class="testimonianze-section">
-        <div class="prospect">
+<section class="courses clearfix">
+    <h2 class="courses__title">Alcune testimonianze</h2>
+
+    <div class="courses__card-container">
+        <div class="courses__card testimonianze__card">
             <div class="avatar">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3050b8e95d3a8f4eb34f5a4c97bb9b7e.png" class="profile">
             </div>
@@ -82,7 +83,7 @@
                 <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi lacus, varius non ipsum vel, pharetra luctus tellus.”</p>
             </div>
         </div>
-        <div class="prospect">
+        <div class="courses__card testimonianze__card">
             <div class="avatar">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/b3bcf0457cc5b06dba97c849b293fb6a.jpg" class="profile">
             </div>
@@ -95,7 +96,7 @@
                 <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi lacus, varius non ipsum vel, pharetra luctus tellus.”</p>
             </div>
         </div>
-        <div class="prospect">
+        <div class="courses__card testimonianze__card">
             <div class="avatar">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/a9148b1c2728e93a98d285f9616d8ec6.png" class="profile">
             </div>
@@ -110,7 +111,9 @@
         </div>
     </div>
     
-    <button class="btn" type="button">Iscriviti</button>
+    <div class="courses__button-primary">
+        <a href="#">Iscriviti</a>
+    </div>
 
 </section>
 
