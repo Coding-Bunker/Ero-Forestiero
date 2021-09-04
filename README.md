@@ -1,4 +1,4 @@
-![Inglese](https://github.com/Coding-Bunker/Ero-Forestiero/blob/main/README-english.md)
+[Inglese](https://github.com/Coding-Bunker/Ero-Forestiero/blob/main/README-english.md)
 
 ![immagine](https://user-images.githubusercontent.com/58633329/127655910-6ede856f-1e8f-4113-af13-19f3d6cde8bb.png)
 
