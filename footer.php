@@ -67,5 +67,6 @@
 <!-- JavaScript files -->
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/faq-form.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/header-menu-button.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/contact-form.js"></script>
 </body>
 </html>

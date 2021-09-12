@@ -65,10 +65,17 @@ main {
 .contactpage-card-line {
     margin: 10px 0;
 }
-.contactpage-card-line > * {
+.contactpage-card-line > a {
+    color: #fff;
+    text-decoration: none;
+}
+.contactpage-card-line > a:hover {
+    color: #008964;
+}
+.contactpage-card-line > a > * {
     display: inline;
 }
-.contactpage-card-line > i {
+.contactpage-card-line > a > i {
     margin-right: 20px;
 }
 
@@ -88,7 +95,7 @@ main {
 .contact-input {
     border-top: none !important;
     border-right: none !important;
-    border-bottom: 1px solid #C6C6C6 !important;
+    border-bottom: 1px solid #C6C6C6;
     border-left: none !important;
     width: 90%;
     border-radius: 0 !important;

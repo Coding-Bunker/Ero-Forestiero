@@ -13,13 +13,17 @@
                 </div>
                 <div class="contactpage-card_content">
                     <div class="contactpage-card-line">
-                        <i class="fas fa-phone-alt"></i>
-                        <h5 class="contactpage-text">+39 0775 20 123 32</h5>
+                        <a href="tel:+3907752012332">
+                            <i class="fas fa-phone-alt"></i>
+                            <h5 class="contactpage-text">+39 0775 20 123 32</h5>
+                        </a>
                     </div>
 
                     <div class="contactpage-card-line">
-                        <i class="fas fa-envelope"></i>
-                        <h5 class="contactpage-text">eroforestiero@gmail.com</h5>
+                        <a href="mailto:eroforestiero@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            <h5 class="contactpage-text">eroforestiero@gmail.com</h5>
+                        </a>
                     </div>
                 </div>
                 <div class="contactpage-card-social">
@@ -35,27 +39,27 @@
             <form action="">
                 <div class="form-single">
                     <label for="name">Nome</label>
-                    <input type="email" name="name" id="" class="contact-input">
+                    <input type="text" name="name" id="contact-name" class="contact-input">
                 </div>
                 <div class="form-single">
                     <label for="surname">Cognome</label>
-                    <input type="email" name="surname" id="" class="contact-input">
+                    <input type="text" name="surname" id="contact-surname" class="contact-input">
                 </div>
 
                 <br>
 
                 <div class="form-single">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="" class="contact-input">
+                    <input type="email" name="email" id="contact-email" class="contact-input">
                 </div>
                 <div class="form-single">
                     <label for="phone">Telefono (facoltativo)</label>
-                    <input type="email" name="phone" id="" class="contact-input">
+                    <input type="text" name="phone" id="contact-tel" class="contact-input">
                 </div>
 
                 <div class="form-double">
                     <label for="message">Messaggio</label><br>
-                    <textarea name="message" id="" cols="30" rows="6" placeholder="Scrivi qui il tuo messaggio" class="contact-input"></textarea>
+                    <textarea name="message" id="contact-message" cols="30" rows="6" placeholder="Scrivi qui il tuo messaggio" class="contact-input"></textarea>
                 </div>
 
                 <button type="submit" class="intro__button-primary contactpage-send_button">Invia</button>
