@@ -1051,6 +1051,143 @@ textarea {
     color: white;
 }
 
+.header-menu-button {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 8px;
+    background: transparent;
+    border: none !important;
+    position: relative;
+    outline: none !important;
+    display: none;
+  }
+  .header-menu-button > div  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+  }
+  .header-menu-button > div > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .line {
+    width: 100% !important;
+    height: 4px !important;
+    background: #595959;
+    display: block;
+    margin: 3px 0;
+    border-radius: 8px;
+    animation: enterFade 1s;
+  }
+  .short-line {
+    display: inline-block;
+    width: 75% !important;
+    margin-left: auto;
+    margin-right: 0;
+    animation: enterFade 1s;
+  }
+  .dot {
+    width: 4px;
+    height: 4px;
+    margin: 3px 0;
+    border-radius: 50%;
+    display: inline-block;
+    background: #595959;
+    margin-left: 0;
+    margin-right: auto;
+    animation: enterFade 1s;
+  }
+  
+  .lineTopAnim {
+    animation: topLine 2s;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  .lineBottomAnim {
+    animation: bottomLine 2s;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  .dotAnim {
+    animation: exitFade 1s;
+    opacity: 0;
+  }
+  .middleLineAnim {
+    animation: exitFade 1s;
+    opacity: 0;
+  }
+  
+  @keyframes exitFade {
+    0% { opacity: 1; display: inline-block; }
+    25% { opacity: 0 }
+    100% { opacity: 0; display: none; }
+  }
+  
+  @keyframes topLine {
+    0% { transform: rotate(0) }
+    25% { transform: rotate(45deg); }
+    100% { 
+      margin: auto;
+      padding: 0;
+      box-sizing: border-box;
+      transform: rotate(45deg);
+      position: absolute;
+      top: 50%;
+      left: 0;
+    }
+  }
+  @keyframes bottomLine {
+    0% { transform: rotate(0) }
+    25% { transform: rotate(-45deg);}
+    100% { 
+      margin: auto;
+      padding: 0;
+      box-sizing: border-box;
+      transform: rotate(-45deg);
+      position: absolute;
+      top: 50%;
+      left: 0;
+    }
+  }
+  
+  @keyframes enterFade {
+    100% { opacity: 1; display: inline-block; }
+    25% { opacity: 0 }
+    0% { opacity: 0; display: none; }
+  }
+
+.mobile-menu-logo {
+    display: none;
+}
+.show {
+    animation: animateMenu 800ms;
+}
+
+@keyframes animateMenu {
+    0% {
+        transform: translateX(-80%);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 @media screen and (max-width: 1185px) {
     .header {
         margin: 1em 2em;
@@ -1062,6 +1199,12 @@ textarea {
 
     .menu-item {
         margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header-menu-button {
+        display: inline-block;
     }
 }
 
@@ -1083,6 +1226,60 @@ textarea {
     .navbar-brand {
         width: 70%;
     }
+    .mobile-menu-logo {
+        display: none;
+    }
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        height: 100%;
+        background: #FFFFFF;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: center;
+        color: #303030;
+    }
+
+    .navbar-collapse > ul > li {
+        margin: 16px 0;
+    }
+
+    .navbar-collapse > form > .volunteer-btn {
+        background: #008964;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .navbar-collapse > form > .volunteer-btn > a {
+        color: #FFFFFF;
+    }
+
+    .navbar-collapse.collapsing {
+        width: 80%;
+        height: 100%;
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        width: 80%;
+        height: 100%;
+        left: 0;
+        transition: left 400ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 400ms ease-in;
+    }
 }
 
 /************************************************************/
@@ -1091,6 +1288,11 @@ textarea {
 }
 
 @media (max-width: 768px) {
+    .mobile-menu-logo {
+        display: block;
+        width: 140px;
+        margin: 90px auto 55px auto;
+    }
     .navbar-collapse {
         position: fixed;
         top: 0;

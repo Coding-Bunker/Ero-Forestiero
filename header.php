@@ -58,10 +58,16 @@
                     <a class="navbar-brand brand-icon" href="<?php echo site_url(''); ?>">
                         <img class="brand-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ero-forestiero-logo-home.png" alt="">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="header-menu-button" onclick="animateIcon()">
+                        <span class="line" id="topLine"></span>
+                        <div>
+                            <span class="dot" id="dot"></span>
+                            <span class="short-line line" id="middleLine"></span>
+                        </div>
+                        <span class="line" id="bottomLine"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <img class="mobile-menu-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ero-forestiero-logo.png" alt="">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item menu-item">
                                 <a href="<?php echo site_url('/chi-siamo'); ?>"
