@@ -109,10 +109,6 @@ Tramite una [donazione libera](https://www.paypal.me/codingbunkerdiscord/) potra
 
 ![immagine](https://user-images.githubusercontent.com/58633329/125776237-72c2aefa-3965-4501-b082-f232cca09c9c.png)
 
-#### TomorrowDevs
-
-![immagine](https://user-images.githubusercontent.com/58633329/125776305-00cfedff-5591-4553-a784-512814a73788.png)
-
 #### Codemotion
 
 ![immagine](https://user-images.githubusercontent.com/58633329/125776345-86900c5e-6c34-4873-aaa7-14dd90f8f897.png)
